@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Student Registration Form</title>
+  </head>
+  <body>
+    <form>
+      <h1>Student Registration Form</h1>
+      <div class="form-group" >
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" value="" placeholder="First Name" required />
+      </div>
+      <div class="form-group">
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" value="" placeholder="Last Name" required />
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="Male" required> 
+        <span> Male </span>
+        <input type="radio" name="gender" value="Female" required>
+        <span> Female </span>
+      </div>
+      <div class="form-group">
+        <label for="dateofbirth">Date of Birth:</label>
+        <input type="date" id="dateofbirth" value="" required />
+      </div>
+      <div class="form-group">
+        <label for="age">Age: </label>
+        <input type="number" id="age" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password: </label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Confirm Password: </label>
+        <input type="password" id="password" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address</label>
+        <textarea rows="3" cols="12" id="address" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="state">State</label>
+        <select id="state">
+          <option value="Select..">Select State</option>
+          <option value="Maharashtra">Maharashtra</option>
+          <option value="Gujarat">Gujarat</option>
+          <option value="Rajasthan">Rajasthan</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="city">City</label>
+        <select id="city">
+          <option value="Select..">Select State</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Ahmedabad">Ahmedabad</option>
+          <option value="Jaipur">Jaipur</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="hobbies">Hobbies</label>
+        <input type="checkbox" id="hobbies" value="Cricket">
+        <span>Cricket</span>
+        <input type="checkbox" id="hobbies" value="Football">
+        <span>Football</span>
+        <input type="checkbox" id="hobbies" value="Hockey">
+        <span>Hockey</span>
+        <input type="checkbox" id="hobbies" value="Badminton">
+        <span>Badminton</span>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
