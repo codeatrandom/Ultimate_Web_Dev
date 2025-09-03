@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .parent {
+      position: relative;
+      top: 50px;
+      left: 40px;
+      width: 200px;
+      height: 200px;
+      background: #eee;
+      margin: 20px;
+    }
+
+    .absolute-box {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      width: 80px;
+      height: 40px;
+      background: rgb(178, 44, 20);
+      color: white;
+      text-align: center;
+      line-height: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Absolute Example</h3>
+  <div class="parent">
+    Parent
+    <div class="absolute-box">Absolute</div>
+  </div>
+</body>
+</html>
+<!--
+  In this example, the "Absolute" box is positioned 10px from the top and right of its nearest positioned ancestor, which is the "Parent" div.
+  The "Parent" div has position: relative, making it the reference point for the absolutely positioned child.

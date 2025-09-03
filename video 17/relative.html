@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .relative-box {
+      width: 100px;
+      height: 100px;
+      background: lightgreen;
+      position: relative;
+      top: 500px;
+      left: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Relative Example</h3>
+  <div class="relative-box">Relative</div>
+  <p>This text stays where it is (box still reserves original space).</p>
+</body>
+</html>
+<!--
+  In this example, the box is positioned 10px down and 10px to the right from its original position.
+  The space it originally occupied is still reserved in the document flow.
