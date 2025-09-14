@@ -1,0 +1,61 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      font-size: 16px;
+    }
+    h2 {
+      margin-top: 40px;
+      background: #f0f0f0;
+      border-left: 5px solid #333;
+    }
+    .demo-box {
+      margin: 10px 0;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+    .px-box { 
+        width: 200px; 
+        height: 100px; 
+        background: steelblue; 
+    }
+    .percent-parent { 
+    width: 400px; 
+    height: 100px; 
+    background: #ddd; 
+    }
+    .percent-child { 
+    width: 50%; 
+    height: 100%; 
+    background: seagreen; 
+    padding: 0px
+    }
+    .em-example { 
+        border: 2px dashed #999; 
+        font-size: 20px;
+        padding: 10px; 
+    }
+    .em-example .box { 
+        background: tomato; 
+        width: 30em;
+    }
+    .rem-example { 
+        border: 2px dashed #999; 
+        padding: 10px; 
+    }
+    .rem-example .box { 
+        background: royalblue; 
+        width: 50rem;
+    }
+    .vhvw-box { 
+        background: orange; 
+        width: 50vw;
+        height: 30vh;
+    }
+    .responsive-heading { 
+        background: #eee; 
+        text-align: center; 
+        padding: 10px; 
+        font-size: 5vw;
+    }

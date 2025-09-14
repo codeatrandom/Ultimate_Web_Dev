@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="./style.css" rel="stylesheet" />
+  <title>CSS Units Demo</title>
+</head>
+<body>
+
+  <h1>CSS Units — All-in-One Demo</h1>
+
+  <h2>1. Absolute Units (px)</h2>
+  <div class="demo-box px-box">200px × 100px</div>
+
+  <h2>2. Percentage Units (%)</h2>
+  <div class="percent-parent">
+    <div class="demo-box percent-child">50% of parent</div>
+  </div>
+
+  <h2>3. em vs rem</h2>
+  <div class="em-example">
+    <p>Parent font-size = 20px</p>
+    <div class="demo-box box">Width: 10em → 200px</div>
+  </div>
+  <div class="rem-example">
+    <p>Root font-size = 16px (default)</p>
+    <div class="demo-box box">Width: 10rem → 160px</div>
+  </div>
+
+  <h2>4. Viewport Units (vh, vw)</h2>
+  <div class="demo-box vhvw-box">50vw × 30vh</div>
+
+  <h2>5. Responsive Text (vw)</h2>
+  <h1 class="responsive-heading">This text scales with screen width</h1>
+
+</body>
+</html>
